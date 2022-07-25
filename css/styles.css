@@ -20,7 +20,7 @@ body {
   text-align: center;
   letter-spacing: 0.1rem;
 }
-/* .intro-slideshow img { */
+/* .intro-slideshow { */
   /* position: absolute; */
   /* top: 0; */
   /* left: 0; */
@@ -35,8 +35,8 @@ body {
 /* } */
 /* .intro-slideshow img:first-child {
   display: block;
-  opacity: 1;
-} */
+  opacity: 1;*/
+/* }  */
 .intro .intro-header {
   border-radius: 0.5rem;
   padding: 2rem 2.5rem;
