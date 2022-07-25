@@ -4,8 +4,7 @@ const nextImageDelay = 5000;
 let currentImageCounter = 0; // setting a variable to keep track of the current image (slide)
 
 // slideshowImages[currentImageCounter].style.display = "block";
-slideshowImages[currentImageCounter].style.opacity = 1;
-
+// slideshowImages[currentImageCounter].style.opacity = 1;
 setInterval(nextImage, nextImageDelay);
 
 function nextImage() {
@@ -15,5 +14,5 @@ function nextImage() {
   currentImageCounter = (currentImageCounter+1) % slideshowImages.length;
 
   // slideshowImages[currentImageCounter].style.display = "block";
-  slideshowImages[currentImageCounter].style.opacity = 1;
+  // slideshowImages[currentImageCounter].style.opacity = 1;
 }
