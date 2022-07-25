@@ -20,7 +20,7 @@ body {
   text-align: center;
   letter-spacing: 0.1rem;
 }
-.slideshow-img {
+.intro-slideshow img {
   position: absolute;
   top: 0;
   left: 0;
